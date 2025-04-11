@@ -10,7 +10,7 @@ public class PrimeiroEndPoint {
 
 	@GetMapping
 	public String helloWorld() {
-		return "Hello World!!";
+		return "<h1>Hello World!!</h1>";
 	}
 	
 }
